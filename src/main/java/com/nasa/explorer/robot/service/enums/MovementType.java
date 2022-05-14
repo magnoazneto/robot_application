@@ -14,7 +14,7 @@ public enum MovementType {
         this.code = code;
     }
 
-    private static final Map<Character, MovementType> map = new HashMap<>(values().length, 1);
+    private static final Map<Character, MovementType> map = new HashMap<>(values().length);
 
     static {
         for (MovementType movementType : values()) map.put(movementType.code, movementType);

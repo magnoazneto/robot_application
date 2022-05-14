@@ -12,7 +12,7 @@ public enum Orientation {
     public final Character code;
     private final Character commandRightResult;
     private final Character commandLeftResult;
-    private static final Map<Character, Orientation> map = new HashMap<>(values().length, 1);
+    private static final Map<Character, Orientation> map = new HashMap<>(values().length);
 
     static {
         for (Orientation orientation : values()) map.put(orientation.code, orientation);

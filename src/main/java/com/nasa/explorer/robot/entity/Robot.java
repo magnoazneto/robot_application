@@ -6,8 +6,6 @@ import com.nasa.explorer.robot.service.enums.MovementType;
 import com.nasa.explorer.robot.service.enums.Orientation;
 import org.springframework.stereotype.Component;
 
-import javax.swing.*;
-
 @Component
 public class Robot {
     private static final String ROBOT_OUT_OF_FIELD = "Robot out of allowed field.";
